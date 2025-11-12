@@ -9,14 +9,18 @@
 
     <item>
       <title>Version 2.70.0</title>
-      <description>Critical update: Please update to continue using the app.</description>
+      <description>Critical update: This version is mandatory. Please update to continue using the app.</description>
       <pubDate>Wed, 12 Nov 2025 12:00:00 +0000</pubDate>
+
+      <!-- info update -->
       <enclosure
         url="https://example.com/actionpay_v2.70.0.apk"
         sparkle:version="75"
         sparkle:shortVersionString="2.70.0"
         sparkle:os="android"
         type="application/vnd.android.package-archive" />
+
+      <!-- 👇 bagian penting -->
       <sparkle:criticalUpdate>true</sparkle:criticalUpdate>
     </item>
   </channel>
