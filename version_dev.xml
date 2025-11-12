@@ -17,6 +17,7 @@
         sparkle:shortVersionString="2.70.0"
         sparkle:os="android"
         type="application/vnd.android.package-archive" />
+      <sparkle:criticalUpdate>true</sparkle:criticalUpdate>
     </item>
   </channel>
 </rss>
