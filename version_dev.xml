@@ -21,7 +21,7 @@
         type="application/vnd.android.package-archive" />
 
       <!-- 👇 bagian penting -->
-      <sparkle:mandatory>true</sparkle:mandatory>
+      <sparkle:criticalUpdate>true</sparkle:criticalUpdate>
     </item>
   </channel>
 </rss>
