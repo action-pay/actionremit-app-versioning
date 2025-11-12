@@ -1,34 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss
-  version="2.0"
-  xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
->
-  <channel>
-    <title>ActionPay - Appcast</title>
-    <link>https://example.com/appcast.xml</link>
-    <description>Release feed for ActionPay updates</description>
-    <language>en</language>
-
-    <!-- FORCE UPDATE for all versions below 3.0.0 (build 75) -->
-    <item>
-      <title>Version 3.0.0 (75)</title>
-      <description>
-        ⚠️ This is a critical update. Versions below 1.70.0 (75) are no longer supported.
-        Please update to continue using the app safely.
-      </description>
-      <pubDate>Wed, 12 Nov 2025 12:00:00 +0000</pubDate>
-
-      <!-- This marks the update as mandatory -->
-      <sparkle:criticalUpdate>true</sparkle:criticalUpdate>
-
-      <enclosure
-        url="https://drive.google.com/uc?export=download&id=1-zxBf9FGDMqsXpt5BMwVBvxZXNiD99kT"
-        sparkle:version="75"
-        sparkle:shortVersionString="3.0.0"
-        sparkle:os="android"
-        type="application/vnd.android.package-archive"
-      />
-    </item>
-
-  </channel>
+<rss version="1.70.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>ActionPay - Appcast</title>
+        <item>
+            <title>Version 1.0.0</title>
+            <description>desc</description>
+            <pubDate>Sun, 30 Dec 2018 12:00:00 +0000</pubDate>
+            <!-- add these lines to force users updating their app. -->
+            <sparkle:tags>
+            <sparkle:criticalUpdate></sparkle:criticalUpdate>
+            </sparkle:tags>
+            <!-- add these lines to force users updating their app. -->
+            <enclosure url="https://drive.google.com/file/d/1rF0WcosI5BWc3WblGHMKGtWk9n5kJ-rT/view?usp=drive_link" sparkle:version="1.70.0" sparkle:os="android" />
+        </item>
+    </channel>
 </rss>
