@@ -3,9 +3,9 @@
     <channel>
         <title>ActionPay - Appcast</title>
         <item>
-            <title>Version 1.0.0</title>
+            <title>Version 1.70.0</title>
             <description>desc</description>
-            <pubDate>Sun, 30 Dec 2018 12:00:00 +0000</pubDate>
+            <pubDate>Sun, 12 Nov 2025 12:00:00 +0000</pubDate>
             <!-- add these lines to force users updating their app. -->
             <sparkle:tags>
             <sparkle:criticalUpdate></sparkle:criticalUpdate>
