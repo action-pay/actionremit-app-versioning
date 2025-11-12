@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="1.70.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<rss version="3.0.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
     <channel>
         <title>ActionPay - Appcast</title>
         <item>
@@ -8,10 +8,10 @@
             <pubDate>Sun, 30 Dec 2018 12:00:00 +0000</pubDate>
             <!-- add these lines to force users updating their app. -->
             <sparkle:tags>
-            <sparkle:criticalUpdate></sparkle:criticalUpdate>
+            <sparkle:criticalUpdate>true</sparkle:criticalUpdate>
             </sparkle:tags>
             <!-- add these lines to force users updating their app. -->
-            <enclosure url="https://drive.google.com/file/d/1rF0WcosI5BWc3WblGHMKGtWk9n5kJ-rT/view?usp=drive_link" sparkle:version="1.70.0" sparkle:os="android" />
+            <enclosure url="https://drive.google.com/file/d/1rF0WcosI5BWc3WblGHMKGtWk9n5kJ-rT/view?usp=drive_link" sparkle:version="3.0.0" sparkle:os="android" />
         </item>
     </channel>
 </rss>
