@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:upgrader="https://github.com/larryaasen/upgrader" version="2.0">
-  <channel>
-    <title>My App Updates</title>
-    <link>https://example.com/</link>
-    <description>Appcast for Upgrader</description>
-
-    <item>
-      <title>Version 2.0.0</title>
-
-      <!-- Wajib: versi aplikasi terbaru -->
-      <upgrader:version>2.0.0</upgrader:version>
-
-      <!-- Wajib: minimum versi agar aplikasi kalian dianggap OUTDATED -->
-      <upgrader:min_os_version>1.0.0</upgrader:min_os_version>
-
-      <!-- Wajib: URL ke Play Store atau App Store -->
-      <upgrader:store>
-        https://play.google.com/store/apps/details?id=com.example.myapp
-      </upgrader:store>
-
-      <!-- OPTIONAL: catatan update -->
-      <description>
-        - New UI improvements
-        - Performance enhancements
-        - Bug fixes
-      </description>
-    </item>
-
-  </channel>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>ActionPay - Appcast</title>
+        <item>
+            <title>Version 1.0.0</title>
+            <description>desc</description>
+            <pubDate>Sun, 30 Dec 2018 12:00:00 +0000</pubDate>
+            <!-- add these lines to force users updating their app. -->
+            <sparkle:tags>
+            <sparkle:criticalUpdate></sparkle:criticalUpdate>
+            </sparkle:tags>
+            <!-- add these lines to force users updating their app. -->
+            <enclosure url="https://drive.google.com/file/d/1-zxBf9FGDMqsXpt5BMwVBvxZXNiD99kT/view?usp=drive_link" sparkle:version="1.0.0" sparkle:os="android" />
+        </item>
+    </channel>
 </rss>
