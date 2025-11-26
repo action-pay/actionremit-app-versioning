@@ -1,24 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<appcast>
-  <title>App Version Feed</title>
-  <link>https://your-domain.com/appcast.xml</link>
-  <description>Versioning feed for Flutter Upgrader</description>
-  <language>en</language>
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:upgrader="https://github.com/larryaasen/upgrader" version="2.0">
+  <channel>
+    <title>My App Updates</title>
+    <link>https://example.com/</link>
+    <description>Appcast for Upgrader</description>
 
-  <!-- ========================= -->
-  <!--  LATEST MANDATORY UPDATE  -->
-  <!-- ========================= -->
-  <item>
-    <title>Mandatory Update v2.0.0</title>
-    <version>2.0.0</version>
-    <criticalUpdate>true</criticalUpdate>
-    <pubDate>Wed, 24 Nov 2025 10:00:00 GMT</pubDate>
-    <releaseNotes>
-      Perubahan penting:
-      - Perbaikan keamanan besar
-      - Optimalisasi performa
-      - Wajib update untuk melanjutkan
-    </releaseNotes>
-    <url>https://play.google.com/store/apps/details?id=com.example.app</url>
-  </item>
-</appcast>
+    <item>
+      <title>Version 2.0.0</title>
+
+      <!-- Wajib: versi aplikasi terbaru -->
+      <upgrader:version>2.0.0</upgrader:version>
+
+      <!-- Wajib: minimum versi agar aplikasi kalian dianggap OUTDATED -->
+      <upgrader:min_os_version>1.0.0</upgrader:min_os_version>
+
+      <!-- Wajib: URL ke Play Store atau App Store -->
+      <upgrader:store>
+        https://play.google.com/store/apps/details?id=com.example.myapp
+      </upgrader:store>
+
+      <!-- OPTIONAL: catatan update -->
+      <description>
+        - New UI improvements
+        - Performance enhancements
+        - Bug fixes
+      </description>
+    </item>
+
+  </channel>
+</rss>
